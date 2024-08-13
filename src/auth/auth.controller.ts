@@ -8,7 +8,6 @@ export class AuthController {
 
   @Post('login')
   async login(@Body() body: { email: string; password: string }, @Res() res: Response) {
-    // The interceptor will handle JWT generation and response attachment
-    // No need to manually set response in the controller
+   
   }
 }
